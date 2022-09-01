@@ -58,3 +58,12 @@ contact_name_field = "id,name"
 bitcoin_real_time_price_button = "xpath,//android.widget.TextView[@resource-id='com.dudam.rohan.bitcoininfo:id/current_price']"
 bitcoin_price_page_heading = "xpath,//android.widget.TextView[@text='Real Time Price of Bitcoin']"
 bitcoin_price_in_usd = "xpath,//android.widget.TextView[@resource-id='com.dudam.rohan.bitcoininfo:id/doller_value']"
+
+#locators for weather shopper application
+temeperature_text = "//span[@id='temperature']"
+least_priced_product = "//p[contains(text(),'%s')]/following-sibling::button[@class='btn-btn-primary']"
+moisturizers_button = "//button[contains(text(),'Buy moisturizers')]"
+price_of_all = "//p[contains(text(),'Price')]"
+sunscreens_button = "//button[contains(text(),'Buy sunscreens')]"
+cart_button = "//button[@class='thin-text nav-link']"
+payment_button = "//span[normalize-space()='Pay with Card']"
